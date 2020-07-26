@@ -1,0 +1,28 @@
+/*Below are the topic of c++*/
+
+class - code class.cpp 
+
+inline_function - code  inline_function.cpp
+
+reverse_string - code reverse_string.cpp
+
+this_pointer - code reverse_string.cpp
+
+delete this pointer - should not delete this pointer, once delete this is done, any member of the deleted object should not be accessed after deletion.
+
+/*pointer types */
+auto_ptr, unique_ptr, shared_ptr and weak_ptr
+Dangling, Void , Null and Wild Pointers
+/*pointer types ends */
+
+/*OOPS concepts*/
+Object - code class.cpp
+Class - code class.cpp
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+/*OOPS concepts ends*/
+
+
+
