@@ -24,5 +24,6 @@ Abstraction
 Encapsulation
 /*OOPS concepts ends*/
 
-
+Access specifiers : public , private , protected
+	PROTECTED : Protected access modifier is similar to that of private access modifiers, the difference is that the class member declared as Protected are inaccessible outside the class but they can be accessed by any subclass(derived class) of that class.
 
