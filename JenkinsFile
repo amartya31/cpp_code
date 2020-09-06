@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Successfully Built'
-                sh 'echo `ll -lrt`'
+                sh 'echo `ls -lrt`'
             }
         }
     }
