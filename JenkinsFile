@@ -1,15 +1,15 @@
 pipeline {
-    agent none
+    agent any
     stages {
         stage('Build') {
-            agent none
+            agent any
             steps {
                 echo 'Hello, Maven'
                 sh 'g++ src/class.cpp'
             }
         }
         stage('Test') {
-            agent none
+            agent any
             steps {
                 echo 'Successfully Built'
             }
