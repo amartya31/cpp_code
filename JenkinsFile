@@ -11,6 +11,7 @@ pipeline {
             steps {
                 echo 'Successfully Built'
                 sh 'echo `ls -lrt`'
+                sh 'echo "Path = `pwd`"'
             }
         }
     }
