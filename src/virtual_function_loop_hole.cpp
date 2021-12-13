@@ -27,8 +27,9 @@ public:
 int main()
 {
     base *bptr;
-    derived d;
-    bptr = &d;
+    //derived d;
+    //bptr = &d;
+    bptr = new(nothrow) derived;
 
     //virtual function, binded at runtime (Runtime polymorphism)
     bptr->print();
