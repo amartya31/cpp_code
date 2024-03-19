@@ -1,0 +1,104 @@
+Non-modifying Sequence Operations:
+
+std::all_of
+std::any_of
+std::none_of
+std::for_each
+std::count
+std::count_if
+std::mismatch
+std::equal
+std::find
+std::find_if
+std::find_if_not
+std::search
+std::search_n
+Modifying Sequence Operations:
+
+std::copy
+std::copy_if
+std::copy_n
+std::copy_backward
+std::move
+std::move_backward
+std::fill
+std::fill_n
+std::transform
+std::generate
+std::generate_n
+std::remove
+std::remove_if
+std::remove_copy
+std::remove_copy_if
+std::replace
+std::replace_if
+std::replace_copy
+std::replace_copy_if
+std::swap
+std::swap_ranges
+std::iter_swap
+std::reverse
+std::reverse_copy
+std::rotate
+std::rotate_copy
+std::random_shuffle
+std::shuffle (C++11)
+std::unique
+std::unique_copy
+Partitioning Operations:
+
+std::partition
+std::stable_partition
+std::partition_copy
+std::partition_point
+Sorting Operations:
+
+std::sort
+std::stable_sort
+std::partial_sort
+std::partial_sort_copy
+std::is_sorted
+std::is_sorted_until
+std::nth_element
+std::lower_bound
+std::upper_bound
+std::binary_search
+std::merge
+std::inplace_merge
+Binary Search Operations (on sorted ranges):
+
+std::lower_bound
+std::upper_bound
+std::binary_search
+std::equal_range
+Heap Operations:
+
+std::make_heap
+std::pop_heap
+std::push_heap
+std::sort_heap
+Minimum/Maximum Operations:
+
+std::max
+std::min
+std::max_element
+std::min_element
+std::minmax
+std::minmax_element
+Numeric Operations:
+
+std::accumulate
+std::inner_product
+std::partial_sum
+std::adjacent_difference
+std::iota
+Set Operations (on sorted ranges):
+
+std::set_union
+std::set_intersection
+std::set_difference
+std::set_symmetric_difference
+Permutations:
+
+std::next_permutation
+std::prev_permutation
